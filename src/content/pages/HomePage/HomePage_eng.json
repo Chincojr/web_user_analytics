@@ -14,7 +14,7 @@
       { "label": "Services", "href": "#features" },
       { "label": "Why Trace", "href": "#why-your-site" }
     ],
-    "loginLabel": "Log in",
+    "loginLabel": "",
     "getStartedLabel": "Get started"
   },
   "themeToggle": {
