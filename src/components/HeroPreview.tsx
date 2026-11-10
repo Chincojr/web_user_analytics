@@ -1,7 +1,8 @@
 import type { CSSProperties } from 'react';
 import type { HeroVisual } from '../utils/types/homePage';
+import LogoMark from './LogoMark';
 
-export default function HeroPreview({ scene, brandName, brandMark }: { scene: HeroVisual; brandName: string; brandMark: string }) {
+export default function HeroPreview({ scene, brandName }: { scene: HeroVisual; brandName: string }) {
   const graphWidth = 180;
   const graphHeight = 50;
   const graphStep = graphWidth / Math.max(scene.highlightGraph.points.length - 1, 1);
@@ -39,7 +40,7 @@ export default function HeroPreview({ scene, brandName, brandMark }: { scene: He
         </div>
         <div className="analytics-app">
           <aside className="app-sidebar">
-            <div className="app-brand"><span className="app-brand-mark">{brandMark}</span>{brandName}</div>
+            <div className="app-brand"><LogoMark compact />{brandName}</div>
             <span className="workspace-label">{scene.workspaceLabel}</span>
             <div className="app-nav-list">
               {scene.navItems.map((item, index) => (

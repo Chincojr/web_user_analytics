@@ -31,7 +31,8 @@ button { font: inherit; }
 .nav-wrap { border-bottom: 1px solid var(--line); }
 .navbar { height: 78px; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 720; letter-spacing: -.7px; }
-.brand-mark { width: 27px; height: 27px; display: grid; place-items: center; border-radius: 9px; background: #34d7c0; color: #101126; font-weight: 900; font-size: 16px; transform: rotate(-7deg); }
+.brand-mark { width: 30px; height: 30px; display: block; flex: 0 0 auto; filter: drop-shadow(0 4px 8px rgba(35,190,172,.22)); }
+.brand-mark-compact { width: 18px; height: 18px; filter: none; }
 .nav-links { display: flex; align-items: center; gap: 34px; color: var(--muted); font-size: 13px; }
 .nav-links a:hover, .login:hover { color: var(--text); }
 .nav-actions { display: flex; align-items: center; gap: 17px; font-size: 13px; }
@@ -115,7 +116,6 @@ h1 { max-width: 620px; margin: 22px 0 19px; font-size: clamp(43px, 5.1vw, 65px);
 .analytics-app { display: grid; grid-template-columns: 124px minmax(0,1fr); min-height: 360px; color: #22233e; }
 .app-sidebar { position: relative; padding: 13px 9px; background: #17182f; color: #e8e9f3; }
 .app-brand { display: flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 750; }
-.app-brand-mark { width: 17px; height: 17px; display: grid; place-items: center; border-radius: 5px; background: #77f4df; color: #17182f; font-size: 8px; }
 .workspace-label { display: block; overflow: hidden; margin: 18px 0 8px; color: #888aa7; font-size: 6px; text-overflow: ellipsis; white-space: nowrap; }
 .app-nav-list { display: grid; gap: 4px; }
 .app-nav-item { display: flex; align-items: center; gap: 7px; padding: 7px 6px; border-radius: 5px; color: #a7a8c0; font-size: 6px; white-space: nowrap; }
@@ -317,7 +317,7 @@ footer { padding: 25px 0 31px; border-top: 1px solid var(--line); color: var(--m
   .analytics-app { grid-template-columns: 78px minmax(0,1fr); min-height: 315px; }
   .app-sidebar { padding: 10px 5px; }
   .app-brand { gap: 4px; font-size: 7px; }
-  .app-brand-mark { width: 14px; height: 14px; }
+  .brand-mark-compact { width: 14px; height: 14px; }
   .app-nav-item { gap: 4px; padding: 6px 3px; font-size: 5px; }
   .app-nav-item > i { width: 9px; font-size: 7px; }
   .workspace-label { font-size: 5px; }

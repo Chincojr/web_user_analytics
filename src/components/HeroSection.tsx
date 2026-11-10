@@ -60,7 +60,7 @@ export default function HeroSection({ content }: { content: HomePageContent }) {
             <button className="slide-arrow" type="button" aria-label={content.hero.nextSlide} onClick={() => showSlide(activeIndex + 1)}>→</button>
           </div>
         </div>
-        <HeroPreview scene={slide.visual} brandName={content.brand.name} brandMark={content.brand.mark} />
+        <HeroPreview scene={slide.visual} brandName={content.brand.name} />
       </div>
     </section>
   );

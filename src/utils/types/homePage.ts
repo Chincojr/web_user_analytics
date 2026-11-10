@@ -48,7 +48,7 @@ export interface HeroSlide {
 
 export interface HomePageContent {
   meta: { title: string; description: string };
-  brand: { name: string; mark: string; ariaLabel: string };
+  brand: { name: string; ariaLabel: string };
   navigation: {
     ariaLabel: string;
     links: { label: string; href: string }[];
