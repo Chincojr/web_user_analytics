@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Trace | Understand your whole online business",
+    "description": "Connect website behavior with customer journeys, market trends, search demand, and competitor signals."
+  },
+  "brand": {
+    "name": "Trace",
+    "mark": "T",
+    "ariaLabel": "Trace home"
+  },
+  "navigation": {
+    "ariaLabel": "Main navigation",
+    "links": [
+      { "label": "Services", "href": "#features" },
+      { "label": "Why Trace", "href": "#why-your-site" }
+    ],
+    "loginLabel": "Log in",
+    "getStartedLabel": "Get started"
+  },
+  "themeToggle": {
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
+  "hero": {
+    "eyebrow": "Website analytics at the core. Business insight beyond it.",
+    "slidesLabel": "Product overview slides",
+    "slideButtonLabel": "Show slide {number}",
+    "previousSlide": "Show previous slide",
+    "nextSlide": "Show next slide",
+    "primaryAction": "Explore the platform",
+    "secondaryAction": "Why your site matters",
+    "reassurance": "Your site. Your signals. A clearer next step.",
+    "slides": [
+      {
+        "headline": "Understand your",
+        "highlight": "whole online business.",
+        "description": "Connect what people do on your website with the business and market signals that shape what they need.",
+        "visual": {
+          "kind": "business",
+          "caption": "BUSINESS OVERVIEW",
+          "ariaLabel": "Illustrative dashboard connecting website, search, and market signals",
+          "windowLabel": "trace.example / business overview",
+          "workspaceLabel": "Illustrative workspace",
+          "navItems": ["Overview", "Visitor journeys", "Website analysis", "Market signals"],
+          "title": "Online business pulse",
+          "range": "Last 30 days",
+          "metrics": [
+            { "label": "Website attention", "value": "Growing", "change": "More engaged visits" },
+            { "label": "Search demand", "value": "Shifting", "change": "New topics emerging" },
+            { "label": "Market activity", "value": "Active", "change": "Signals worth a look" }
+          ],
+          "chartTitle": "Signals across your business",
+          "chartBars": [28, 38, 34, 49, 43, 61, 57, 69, 62, 83, 74, 91],
+          "signalsTitle": "Connected signals",
+          "signals": [
+            { "title": "Visitor behavior", "detail": "More visitors reach product details", "type": "web" },
+            { "title": "Search interest", "detail": "Demand rising around a related topic", "type": "business" },
+            { "title": "Market movement", "detail": "A competitor updated its offer", "type": "market" }
+          ],
+          "insightLabel": "A clearer picture",
+          "insight": "See customer behavior alongside the signals shaping your market.",
+          "highlightGraph": {
+            "label": "Signal momentum",
+            "value": "Building",
+            "note": "Website and market signals",
+            "points": [18, 27, 22, 39, 34, 51, 48, 66, 59, 77, 71, 94],
+            "tags": ["WEB", "SEARCH", "MARKET"]
+          }
+        }
+      },
+      {
+        "headline": "Make every visit",
+        "highlight": "move you forward.",
+        "description": "See where visitors engage, hesitate, and move on, then improve the experience on the site you control.",
+        "visual": {
+          "kind": "web",
+          "caption": "WEB ANALYTICS",
+          "ariaLabel": "Illustrative website analytics dashboard with an attention heatmap and visitor journey",
+          "windowLabel": "trace.example / website analysis",
+          "workspaceLabel": "Illustrative workspace",
+          "navItems": ["Overview", "Visitor journeys", "Website analysis", "Market signals"],
+          "title": "Visitor experience",
+          "range": "Last 7 days",
+          "metrics": [
+            { "label": "Attention", "value": "Product pages", "change": "Most explored" },
+            { "label": "Journey", "value": "3 key steps", "change": "Across the site" },
+            { "label": "Friction", "value": "Checkout", "change": "Worth a closer look" }
+          ],
+          "chartTitle": "Engagement through the visit",
+          "chartBars": [72, 46, 61, 54, 79, 62, 47, 73, 59, 85, 67, 92],
+          "signalsTitle": "Visitor signals",
+          "signals": [
+            { "title": "Attention hotspot", "detail": "Visitors focus on product details", "type": "web" },
+            { "title": "Session replay", "detail": "Review an anonymized visit", "type": "web" },
+            { "title": "Journey change", "detail": "Some visitors pause before checkout", "type": "market" }
+          ],
+          "insightLabel": "Visitor journey",
+          "insight": "Follow the moments between landing and taking action.",
+          "highlightGraph": {
+            "label": "Visitor intent",
+            "value": "Engaging",
+            "note": "More journeys reach key pages",
+            "points": [23, 31, 28, 45, 39, 58, 54, 68, 63, 82, 76, 96],
+            "tags": ["HEATMAP", "REPLAY", "JOURNEY"]
+          }
+        }
+      },
+      {
+        "headline": "Find the signal",
+        "highlight": "behind the next shift.",
+        "description": "Bring search demand, social conversation, competitor movement, and visitor behavior into one clearer view.",
+        "visual": {
+          "kind": "market",
+          "caption": "MARKET INSIGHTS",
+          "ariaLabel": "Illustrative business analytics dashboard showing trends, search, social, and competitor signals",
+          "windowLabel": "trace.example / market signals",
+          "workspaceLabel": "Illustrative workspace",
+          "navItems": ["Overview", "Visitor journeys", "Website analysis", "Market signals"],
+          "title": "Market signals",
+          "range": "This month",
+          "metrics": [
+            { "label": "Search themes", "value": "Evolving", "change": "Fresh questions appearing" },
+            { "label": "Social signals", "value": "Conversations", "change": "Topics gaining attention" },
+            { "label": "Competitors", "value": "Changes found", "change": "Offers and pages to review" }
+          ],
+          "chartTitle": "Topics gathering interest",
+          "chartBars": [31, 39, 35, 52, 47, 64, 58, 75, 69, 84, 77, 96],
+          "signalsTitle": "Research signals",
+          "signals": [
+            { "title": "Search trend", "detail": "A related keyword is gaining interest", "type": "business" },
+            { "title": "Social conversation", "detail": "Customers are discussing a new need", "type": "web" },
+            { "title": "Competitor update", "detail": "A new product page appeared", "type": "market" }
+          ],
+          "insightLabel": "AI-assisted research",
+          "insight": "Explore relevant signals with the context behind them.",
+          "highlightGraph": {
+            "label": "Demand shift",
+            "value": "Emerging",
+            "note": "Search and social themes",
+            "points": [20, 24, 33, 31, 46, 42, 59, 55, 69, 66, 81, 97],
+            "tags": ["SEARCH", "SOCIAL", "TRENDS"]
+          }
+        }
+      }
+    ]
+  },
+  "story": {
+    "id": "why-your-site",
+    "eyebrow": "A digital home base",
+    "title": "Platforms can change.",
+    "highlight": "Your understanding can keep growing.",
+    "paragraphs": [
+      "Your website is one of the few places where you shape the experience from end to end. Every visit can teach you something about what people need, if you can see the signal.",
+      "Trace brings website behavior together with wider business and market context, so what you learn can help you make the next visit better."
+    ],
+    "steps": [
+      { "number": "01", "title": "Capture the signals", "description": "See what people explore, search for, and return to." },
+      { "number": "02", "title": "Find the connection", "description": "Compare customer behavior with business and market shifts." },
+      { "number": "03", "title": "Choose what to improve", "description": "Turn what you learn into a more useful experience." }
+    ]
+  },
+  "featureSection": {
+    "eyebrow": "From a visit to a business decision",
+    "title": "Start with your website.",
+    "description": "Website analytics gives you the foundation. Business analytics helps you see what is happening around it.",
+    "websiteAnalytics": {
+      "eyebrow": "The foundation",
+      "title": "Website analytics",
+      "description": "Understand what visitors do on your site, how they move through it, and where the experience can improve.",
+      "features": [
+        {
+          "eyebrow": "See the moments that matter",
+          "title": "Find what earns attention.",
+          "description": "Heatmaps turn clicks, taps, and scrolls into a visual story. See what people notice and what they pass by.",
+          "details": ["Click and scroll heatmaps", "Page and site analysis", "Traffic patterns"],
+          "visual": "heatmap",
+          "preview": { "type": "heatmap", "windowLabel": "storefront.example", "pageTitle": "Find your own rhythm.", "actionLabel": "Explore the collection", "markerLabel": "Attention hotspot", "legendLabel": "Less attention to more attention" }
+        },
+        {
+          "eyebrow": "Step into a real visit",
+          "title": "Watch the why behind the numbers.",
+          "description": "Replay anonymized sessions to see where a visitor hesitates, changes course, or finds what they need.",
+          "details": ["Session replays", "Visitor journeys", "Friction signals"],
+          "visual": "replay",
+          "preview": { "type": "replay", "sessionLabel": "Anonymous visitor", "sessionMeta": "Homepage visit · 00:42", "status": "ANONYMIZED", "pageTitle": "Made for the everyday.", "actionLabel": "View product details", "timelineLabel": "Replay timeline" }
+        },
+        {
+          "eyebrow": "Follow the whole journey",
+          "title": "See where intent becomes action.",
+          "description": "Connect behavior across pages to understand how visitors move through your site and where the journey changes.",
+          "details": ["Journey analysis", "User behavior and intent", "Monthly reports"],
+          "visual": "journey",
+          "preview": { "type": "journey", "title": "Example visitor journey", "period": "Recent visits", "steps": [{ "title": "Landing page", "value": "Entry point" }, { "title": "Product details", "value": "Exploring" }, { "title": "Checkout", "value": "Next step" }], "insight": "Compare journeys to find where visitors need more clarity." }
+        }
+      ]
+    },
+    "businessAnalytics": {
+      "eyebrow": "The wider picture",
+      "title": "Online business analytics",
+      "description": "Look beyond your own website. Explore competitor activity, emerging trends, search themes, and social conversation, with AI-assisted research to help connect relevant signals.",
+      "features": [
+        {
+          "eyebrow": "See what is changing around you",
+          "title": "Put your customer signals in context.",
+          "description": "Bring website insights together with competitor, trend, keyword, and social analysis to ask better business questions.",
+          "details": ["Competitor analysis", "Trend analysis", "Search keyword aggregation", "Social media analysis", "AI-assisted research"],
+          "visual": "research",
+          "preview": { "type": "research", "title": "Business signal overview", "period": "Illustrative view", "bars": [30, 38, 35, 50, 45, 64, 57, 75, 68, 86, 79, 96], "signal": "Search theme", "signalValue": "Gaining interest", "summaryTitle": "Research prompt", "summary": "Explore what visitors ask for and how the wider market is responding." }
+        }
+      ]
+    }
+  },
+  "finalCta": {
+    "eyebrow": "Keep getting better",
+    "title": "Make the next visit a better one.",
+    "description": "Start with what your visitors and your market are already showing you.",
+    "button": "Get early access",
+    "email": "hello@trace.example"
+  },
+  "footer": {
+    "copyright": "© 2026 Trace Analytics",
+    "links": [
+      { "label": "Why Trace", "href": "#why-your-site" },
+      { "label": "Platform", "href": "#features" },
+      { "label": "Contact", "href": "mailto:hello@trace.example" }
+    ]
+  }
+}
