@@ -52,8 +52,11 @@ button { font: inherit; }
 .eyebrow { display: inline-flex; align-items: center; gap: 9px; padding: 7px 11px; border: 1px solid rgba(121,88,238,.2); border-radius: 999px; background: rgba(121,88,238,.08); color: #6146c8; font-size: 10px; letter-spacing: .035em; }
 .eyebrow-dot { width: 6px; height: 6px; flex: 0 0 auto; border-radius: 50%; background: #34d7c0; box-shadow: 0 0 12px rgba(52,215,192,.7); }
 h1 { max-width: 620px; margin: 22px 0 19px; font-size: clamp(43px, 5.1vw, 65px); line-height: 1.035; letter-spacing: -3.5px; font-weight: 680; }
-.hero h1 span { color: var(--aqua); }
+.hero h1 { height: 3.15em; overflow: hidden; }
+.hero h1 .hero-headline-main { color: var(--text); }
+.hero h1 .hero-headline-highlight { color: var(--aqua); }
 .hero-copy { max-width: 470px; color: var(--muted); font-size: 16px; line-height: 1.75; }
+.typing-caret { display: inline-block; width: 2px; height: .86em; margin-left: 4px; vertical-align: -.06em; background: currentColor; animation: caretBlink .8s steps(2, start) infinite; }
 .hero-actions { display: flex; align-items: center; gap: 13px; margin-top: 29px; }
 .hero-note { display: flex; align-items: center; gap: 8px; margin-top: 17px; color: var(--muted); font-size: 11px; }
 .hero-note-mark { color: var(--aqua); font-size: 15px; }
@@ -365,12 +368,18 @@ footer { padding: 25px 0 31px; border-top: 1px solid var(--line); color: var(--m
   .footer-links { flex-wrap: wrap; }
 }
 
+@media (max-width: 380px) {
+  .hero h1 { height: 4.2em; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; }
+  .typing-caret { display: none; }
 }
 
 @keyframes heroCopyIn { from { opacity: .35; transform: translateY(9px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes caretBlink { to { visibility: hidden; } }
 @keyframes dashboardIn { from { opacity: .5; transform: translateY(9px) scale(.985); } to { opacity: 1; transform: translateY(0) scale(1); } }
 @keyframes barRise { from { transform: scaleY(.16); opacity: .45; } to { transform: scaleY(1); opacity: 1; } }
 @keyframes chartSweep { 0%, 15% { transform: translateX(-100%); } 75%, 100% { transform: translateX(520%); } }

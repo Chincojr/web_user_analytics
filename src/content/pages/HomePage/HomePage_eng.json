@@ -1,17 +1,17 @@
 {
   "meta": {
-    "title": "Trace | Understand your whole online business",
+    "title": "Trace Analytix | Understand your whole online business",
     "description": "Connect website behavior with customer journeys, market trends, search demand, and competitor signals."
   },
   "brand": {
-    "name": "Trace",
-    "ariaLabel": "Trace home"
+    "name": "Trace Analytix",
+    "ariaLabel": "Trace Analytix home"
   },
   "navigation": {
     "ariaLabel": "Main navigation",
     "links": [
       { "label": "Services", "href": "#features" },
-      { "label": "Why Trace", "href": "#why-your-site" }
+      { "label": "Why Trace Analytix", "href": "#why-your-site" }
     ],
     "loginLabel": "",
     "getStartedLabel": "Get started"
@@ -38,7 +38,7 @@
           "kind": "business",
           "caption": "BUSINESS OVERVIEW",
           "ariaLabel": "Illustrative dashboard connecting website, search, and market signals",
-          "windowLabel": "trace.example / business overview",
+          "windowLabel": "traceanalytix.example / business overview",
           "workspaceLabel": "Illustrative workspace",
           "navItems": ["Overview", "Visitor journeys", "Website analysis", "Market signals"],
           "title": "Online business pulse",
@@ -75,7 +75,7 @@
           "kind": "web",
           "caption": "WEB ANALYTICS",
           "ariaLabel": "Illustrative website analytics dashboard with an attention heatmap and visitor journey",
-          "windowLabel": "trace.example / website analysis",
+          "windowLabel": "traceanalytix.example / website analysis",
           "workspaceLabel": "Illustrative workspace",
           "navItems": ["Overview", "Visitor journeys", "Website analysis", "Market signals"],
           "title": "Visitor experience",
@@ -112,7 +112,7 @@
           "kind": "market",
           "caption": "MARKET INSIGHTS",
           "ariaLabel": "Illustrative business analytics dashboard showing trends, search, social, and competitor signals",
-          "windowLabel": "trace.example / market signals",
+          "windowLabel": "traceanalytix.example / market signals",
           "workspaceLabel": "Illustrative workspace",
           "navItems": ["Overview", "Visitor journeys", "Website analysis", "Market signals"],
           "title": "Market signals",
@@ -150,7 +150,7 @@
     "highlight": "Your understanding can keep growing.",
     "paragraphs": [
       "Your website is one of the few places where you shape the experience from end to end. Every visit can teach you something about what people need, if you can see the signal.",
-      "Trace brings website behavior together with wider business and market context, so what you learn can help you make the next visit better."
+      "Trace Analytix brings website behavior together with wider business and market context, so what you learn can help you make the next visit better."
     ],
     "steps": [
       { "number": "01", "title": "Capture the signals", "description": "See what people explore, search for, and return to." },
@@ -214,14 +214,14 @@
     "title": "Make the next visit a better one.",
     "description": "Start with what your visitors and your market are already showing you.",
     "button": "Get early access",
-    "email": "hello@trace.example"
+    "email": "hello@traceanalytix.example"
   },
   "footer": {
-    "copyright": "© 2026 Trace Analytics",
+    "copyright": "© 2026 Trace Analytix",
     "links": [
-      { "label": "Why Trace", "href": "#why-your-site" },
+      { "label": "Why Trace Analytix", "href": "#why-your-site" },
       { "label": "Platform", "href": "#features" },
-      { "label": "Contact", "href": "mailto:hello@trace.example" }
+      { "label": "Contact", "href": "mailto:hello@traceanalytix.example" }
     ]
   }
 }
